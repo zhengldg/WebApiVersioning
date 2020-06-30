@@ -91,6 +91,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="GlobalPrefixDirectRouteProvider.cs" />
+    <Compile Include="MyNamespace.Controllers\PingController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Routes\Version1RoutePrefixAttribute.cs" />
     <Compile Include="Routes\Version2RoutePrefixAttribute.cs" />

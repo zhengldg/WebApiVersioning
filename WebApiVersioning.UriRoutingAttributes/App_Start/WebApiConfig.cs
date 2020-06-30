@@ -16,7 +16,7 @@ namespace WebApiVersioning.UriRoutingAttributes
             constraintsResolver.ConstraintMap.Add("apiVersionConstraint", typeof(ApiVersionConstraint));
 
 
-            config.MapHttpAttributeRoutes(constraintsResolver);
+            config.MapHttpAttributeRoutes(constraintsResolver, new GlobalPrefixDirectRouteProvider("api"));
             config.Services.Replace(typeof(IHttpControllerSelector), new CustomControllerSelector(config));
         }
     }

@@ -8,7 +8,7 @@ namespace WebApiVersioning.UriRoutingAttributes.Routes
 {
     public class Version2RoutePrefixAttribute : RoutePrefixAttribute
     {
-        private const string RouteBase = "api/{apiVersion:apiVersionConstraint(v2)}";
+        private const string RouteBase = "{apiVersion:apiVersionConstraint(v2)}";
         private const string PrefixRouteBase = RouteBase + "/";
 
         public Version2RoutePrefixAttribute(string routePrefix) : base(string.IsNullOrWhiteSpace(routePrefix) ? RouteBase : PrefixRouteBase + routePrefix)
