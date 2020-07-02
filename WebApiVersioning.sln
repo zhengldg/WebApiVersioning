@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiVersioning.Header", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiVersioning.AcceptHeader", "WebApiVersioning.AcceptHeader\WebApiVersioning.AcceptHeader.csproj", "{607603AE-3687-4556-956B-E2AB7F1E0CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTest", "WebApiTest\WebApiTest.csproj", "{7591622B-2970-4EAA-A0DE-4805B5C73836}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithRazorTest", "WebApiTest\WebApiWithRazorTest.csproj", "{7591622B-2970-4EAA-A0DE-4805B5C73836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
